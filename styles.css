@@ -1,0 +1,386 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+:root{
+    --letraPlanetaTitulo:'Big Shoulders Display', cursive;
+    --letraParrafo: 'Cardo', serif;
+    --btones: 'Cardo', serif;
+    --colorLinea:rgba(255, 255, 255, 0.099);
+    --colorMenufondo: rgba(114, 114, 149, 0.107);
+
+   
+
+
+}
+
+body{
+    background-image:url(img/home/background-home-desktop.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    padding: 3rem 1rem;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Big Shoulders Display', cursive;
+    font-weight: 100px;
+    margin-top: 4rem;
+    height: 1rem;
+    backdrop-filter: blur(2rem);
+
+}
+
+.menu{
+    display: flex;
+}
+
+.lista{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+    font-size: 1.8rem;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.9rem;
+    width: 10rem;
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+li:hover{
+    border-bottom: 2px solid white;
+ 
+}
+.paginaInicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 1.5rem;
+    height: 10rem;
+    width: 23rem;
+    font-family:'Big Shoulders Display', cursive ;
+    
+}
+
+.spanParrafo{
+    font-size: 7.3rem;
+
+}
+
+.containerCirculo{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 13rem;
+    width: 13rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: 9rem;
+}
+.btn{
+    display: flex;
+    font-family: 'Cardo', serif;
+    font-size: 2rem;
+    
+    
+}
+
+/* PAGINA LUNA */
+
+.bodyLuna{
+    background-image: url(img/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.paginaDestino{
+    display: flex;
+
+}
+
+.containerPlaneta{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 36rem;
+}
+.planeta{
+    position: relative;
+    left: 4rem;
+}
+
+.tituloPlaneta{
+    position: relative;
+    right: 6rem;
+    font-size: 1.5rem;
+    font-family:'Big Shoulders Display', cursive;
+}
+
+.containerDestino{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.menuDestino{
+    display: flex;
+    width: 20rem;
+    font-size: 0.9rem;
+    font-family:'Big Shoulders Display', cursive;
+
+}
+.nombrePlaneta{
+    font-size: 7rem;
+}
+.parrafoPlaneta{
+    width: 30rem;
+    font-size:1rem;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.linea{
+    width: 30rem;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.099);
+}
+
+
+.infoPlaneta{
+    display: flex;
+    width: 24rem;
+    height:5rem;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dato{
+    font-size: 2rem;
+}
+.headerLuna{
+    backdrop-filter: blur(0px);
+}
+.menuLuna{
+    background-color: rgba(114, 114, 149, 0.107);
+    backdrop-filter: blur(10px);
+    border-radius: 1px 0 0 1px ; 
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+.lineaMenu{
+    width: 30rem;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.099);
+    position: relative;
+    left: 3rem;
+    z-index: 1;
+}
+
+/* crew */
+.bodyCrew{
+    background-image: url(img/crew/background-crew-desktop.jpg);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.paginaCrew{
+    display: flex;
+}
+
+.containerIntegranteInfo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+.contenedorDeImg{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.Ingeniero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid grey;
+    width: 10rem;
+    border-radius: 10px;
+    opacity:0.6;
+}
+.Comandante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid grey;
+    width: 10rem;
+    border-radius: 10px;
+    opacity:0.6;
+}
+.Piloto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid grey;
+    width: 10rem;
+    border-radius: 10px;
+    opacity:0.6;
+}
+.Especialista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px solid grey;
+    width: 10rem;
+    border-radius: 10px;
+    opacity:0.6;
+}
+.tituloCrew{
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+.opacityOff{
+    opacity:1;
+}
+.paddingOn{
+    padding-left: 4rem;
+}
+
+.crewIntegrante{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20rem;
+    padding: 2rem;
+    padding-left: 3rem;
+}
+.profesion{
+    font-size: 1.8rem;
+}
+
+.nombreProf{
+    font-size: 1.4rem;
+}
+.containerImg{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fotoIntegranteIngeniero{
+    z-index: 1;
+    position: relative;
+    left: 15rem;
+
+}
+
+.fotoIntegranteComandante{
+    position: absolute;
+    bottom: 10rem;
+    left: 36rem;
+    z-index: 0;
+    opacity:0.5;
+    
+}
+.Comandante:hover{
+    opacity: 1;
+    
+}
+
+.Piloto:hover{
+    opacity: 1;
+}
+
+.Especialista:hover{
+    opacity: 1;
+}
+.Ingeniero:hover{
+    opacity: 1;
+}
+
+/* Pagina de tecnologia */
+
+.paginaTech{
+    display: flex;
+    flex-direction:column ;
+}
+.bodyTech{
+    background-image: url(img/technology/background-technology-desktop.jpg);
+}
+.flexSection{
+    display: flex;
+}
+
+.puntoSelect{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+   
+    
+}
+.bola{
+    background-color: grey;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+}
+.nombreTech{
+    font-size: 2.6rem;
+}
+.terminologia{
+    font-size: 1.3rem;
+    margin-bottom: -2rem;
+}
+
+.imgTech{
+    /* box-shadow: 0px 0px 20px white,
+                0px 10px 40px rgb(60, 167, 238); */
+
+    border: 2px solid white;
+}
+
+.bola:hover{
+    background-color: rgb(78, 78, 78);
+}
